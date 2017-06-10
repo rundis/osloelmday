@@ -1,0 +1,50 @@
+1. Autocompletion
+    - Show just completions for Html.
+    - Show in exposing clause
+    - Show for imports
+    - Write moveUp and show points completion
+    - Write dummy decoder (Decode.field)
+        - Autoimport (ctrl-i)
+        - Show the import statement
+
+2. Navigation
+    - Find usages from Dummy.add
+    - Jump to usage in Main
+    - Jump to Dummy.add and back (ctrl+ ,)
+
+3. Help
+    - Show help for Html.text
+    - Show help for moveLeft
+    - Show "Docs: Search language docs"
+    - Bonus: Show packages then package docs
+
+4. Linting
+    - Save and show quickfix for addThree
+    - Apply quickfix
+    - Provoke spelling error (Dummy.addo)
+    - Fix it !
+
+5. Advanced completions (Atom !)
+    - write multiply func
+        - start with type annotation
+        - autocomplete body
+    - case completion
+        - write perhaps type
+        - write fun that takes perhaps
+        - autocomplete on perhaps !
+
+6. Refactoring
+    - Extract function (extractMe)
+        - Select let stuff  (cmd+shift+p)
+        - name fun and params
+    - Rename symbol
+        - Go to Dummy.elm
+        - cursor at subtract
+        - cmd+shift+p -> rename symbol
+
+7. Repl (Light Table)
+    -  Open anonymous repl
+    - import dummy
+    - call add with no params
+    - call add with params
+
